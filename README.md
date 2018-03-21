@@ -39,8 +39,7 @@
 
 ### 3.2 查看元素信息
 
-![](img/inspector.jpg)
-
+![](https://github.com/waylybaye/docs.wuxiang.io/raw/master/img/inspector.png)
 然后右键顶部的幻灯片，选择 `审查元素` 如果你懂 CSS 的话你就会看到，幻灯片的容器有个 `class` 叫做 `.top-news`，然后每个幻灯片有个 `class` 叫做 `.news-item`
 
 
