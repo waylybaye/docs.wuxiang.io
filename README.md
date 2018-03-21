@@ -22,7 +22,7 @@
 
 1. 新建一个页面，匹配URL 填入 `/` 表示这个页面将会匹配主页。
 2. 在右侧拖入一个 `Carousel` 控件，这是一个幻灯片组件。
-3. 在 `selector` 中填入 `.top-news .news-item`，`title` 中填入 `h1`，`image` 中填入 `@background-image`
+3. 在 `selector` 中填入 `.top-news .news-item`，`title` 中填入 `h1`，`image` 中填入 `@background-image`，`url` 中填入 `.news-link @href`
 
 再点击 `推送更新` 现在手机是不是自动刷新并且显示了一个幻灯片啦？
 
@@ -40,3 +40,13 @@
 ### 3.2 查看元素信息
 
 ![](img/inspector.jpg)
+
+然后右键顶部的幻灯片，选择 `审查元素` 如果你懂 CSS 的话你就会看到，幻灯片的容器有个 `class` 叫做 `.top-news`，然后每个幻灯片有个 `class` 叫做 `.news-item`
+
+
+我们上面填的 `selector` 就是选择每一个 `.top-news .news-item` 元素。
+
+* `image` 的 `@background-image` 指的是选择这个元素的 `style 里面的 background-image 图片`，用这个图片作为幻灯片的图片。
+* `title` 填的 `h1` 就是选择这个元素下面的 `h1` 子元素，用这个子元素的文本作为幻灯片标题。
+* `url` 填的 `.news-link @href` 表示选择 `.news-link` 这个子元素，并且使用 `@href` 属性的值作为链接地址。
+
