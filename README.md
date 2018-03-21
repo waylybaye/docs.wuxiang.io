@@ -3,23 +3,26 @@
 
 ## 目录
 
+* ✅  已完成
+* ⚠️  部分完成
+* ❌ 尚未开始
 
 ### 1. 已具备 HTML/CSS 相关经验
 
-1. [从 0 创建 ifanr 网站的客户端](./zh/GetStarted.md)
-2. [无相编辑器的使用](./zh/Editor.md)
-3. [选择器和取值器](./zh/WIP.md)
-4. [无相的控件文档](./zh/WIP.md)
+1. [从 0 创建 ifanr 网站的客户端 ⚠️](./zh/GetStarted.md)
+2. [无相编辑器的使用 ⚠️](./zh/Editor.md)
+3. [选择器和取值器 ⭕️](./zh/WIP.md)
+4. [无相的控件文档 ⭕️](./zh/WIP.md)
 
 
 ### 2. 不具备 HTML/CSS 知识
 
-1. [从 0 创建 ifanr 网站的客户端](./zh/GetStarted.md)
-1. [如何使用 Chrome 开发者工具](./zh/WIP.md)
-1. [HTML/CSS 简介](./zh/WIP.md)
-1. [无相编辑器的使用](./zh/Editor.md)
-1. [无相的选择器和取值器](./zh/WIP.md)
-1. [无相的控件文档](./zh/WIP.md)
+1. [从 0 创建 ifanr 网站的客户端 ⚠️](./zh/GetStarted.md)
+1. [如何使用 Chrome 开发者工具 ⭕️](./zh/WIP.md)
+1. [HTML/CSS 简介 ⭕️](./zh/WIP.md)
+1. [无相编辑器的使用 ⚠️](./zh/Editor.md)
+1. [无相的选择器和取值器 ⭕️](./zh/WIP.md)
+1. [无相的控件文档 ⭕️](./zh/WIP.md)
 
 
 ## 常见问题
