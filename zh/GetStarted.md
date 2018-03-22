@@ -20,13 +20,16 @@
 
 ## 3. 匹配一个网页
 
+### 3.1 添加一个幻灯片控件
+
 1. 新建一个页面，匹配URL 填入 `/` 表示这个页面将会匹配主页。
 2. 在右侧拖入一个 `Carousel` 控件，这是一个幻灯片组件。
 3. 在 `selector` 中填入 `.top-news .news-item`，`title` 中填入 `h1`，`image` 中填入 `@background-image`，`url` 中填入 `.news-link @href`
 
 再点击 `推送更新` 现在手机是不是自动刷新并且显示了一个幻灯片啦？
 
-### 创建一个文章列表
+
+### 3.2 添加一个文章列表控件
 
 1. 在右侧拖入一个 `List` 组件
 2. `sections` 和同级的 `text` 留空
@@ -36,30 +39,13 @@
 
 再点击 `推送更新` 现在手机是不是自动刷新并且在幻灯片下面显示了一个文章列表。
 
+### 3.3 上面填的值都是什么意思？
 
-### 填的那些是什么意思？
-
-「无相」的每个控件都会从 HTML 中提取信息，填入的那些就是 `CSS 选择器`，「无相」会提取出匹配的 `HTML 元素的值` 然后更新控件。`@开头的` 是取值器，你可以使用 `@属性值` 来获取一些特殊属性比如一些图片真实地址可能保存在 `@data-src` 中。
-
-
-### 3.1 打开开发者工具
-
-1. 用电脑 Chrome 打开 [https://www.ifanr.com](https://www.ifanr.com) 
-2. 使用右键选择 `审查元素` 来打开开发者工具
-3. 点击左上角的第二个图标，切换到移动浏览器模式（更改 User Agent）然后刷新就会进入手机版
-
-### 3.2 查看元素信息
-
-![](https://github.com/waylybaye/docs.wuxiang.io/raw/master/img/inspector.png)
-然后右键顶部的幻灯片，选择 `审查元素` 如果你懂 CSS 的话你就会看到，幻灯片的容器有个 `class` 叫做 `.top-news`，然后每个幻灯片有个 `class` 叫做 `.news-item`
-
-
-我们上面填的 `selector` 就是选择每一个 `.top-news .news-item` 元素。
-
-* `image` 的 `@background-image` 指的是选择这个元素的 `style 里面的 background-image 图片`，用这个图片作为幻灯片的图片。
+* `selector` 指选择每一个 `.top-news .news-item` 元素。
+* `image` 的 `@background-image` 指的是使用这个元素的 `style 里面的 background-image 图片`，用这个图片作为幻灯片的图片。
 * `title` 填的 `h1` 就是选择这个元素下面的 `h1` 子元素，用这个子元素的文本作为幻灯片标题。
 * `url` 填的 `.news-link @href` 表示选择 `.news-link` 这个子元素，并且使用 `@href` 属性的值作为链接地址。
 
 
-## 适配文章页面
+## 4. 适配文章页面
 
