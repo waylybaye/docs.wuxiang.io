@@ -49,3 +49,21 @@
 
 ## 4. 适配文章页面
 
+### 4.1 新建一个页面
+
+Match URL 中填写 `/*` 再加一个值输入 `/*/*`
+
+ifanr 的文章详情页是 www.ifanr.com/数字 和 www.ifanr.com/栏目/数字 的形式，这两个规则可以匹配。（星号不能匹配 /）
+
+### 4.2 添加阅读模式
+
+1. 在右侧拖入一个 `Reader` 组件
+2. 分别填写
+
+```title: h1.entry-name
+author: .entry-meta .auth a
+date: .entry-meta span.date
+content: #entry-content
+```
+
+3. 推送后，点击一个文章页面是不是就显示阅读模式啦
