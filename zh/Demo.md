@@ -2,8 +2,7 @@
 
 ## Discuz! (chiphell)
 
-```json
-{
+```
 name: 'Discuz!',
 initial_url: 'https://www.chiphell.com/forum.php',
 user_agent: 'desktop',
@@ -123,5 +122,4 @@ pages: [{
     }
   ]
 }]
-}
 ```
