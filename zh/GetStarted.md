@@ -5,8 +5,7 @@
 
 ## 1. 注册一个账号
 
-你可以在 TestFlight 更新中找到地址。
-
+https://wuxiang.io/dev
 
 ## 2. 新建一个应用（相）
 
