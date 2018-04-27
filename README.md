@@ -2,7 +2,7 @@
 
 <img src="https://is5-ssl.mzstatic.com/image/thumb/Purple128/v4/dd/5d/8e/dd5d8ed6-3642-7e77-eebf-457c6a243c9e/AppIcon-1x_U007emarketing-85-220-6.png/246x0w.jpg" width=128/>
 
-[![无相 on AppStore](https://linkmaker.itunes.apple.com/assets/shared/badges/zh-chs/appstore-lrg.svg "View on App Store")](https://itunes.apple.com/app/apple-store/id1179750280?pt=id1331533746&ct=docs&mt=8)
+[![无相 on AppStore](https://linkmaker.itunes.apple.com/assets/shared/badges/zh-chs/appstore-lrg.svg "View on App Store")](https://itunes.apple.com/cn/app/id1331533746?mt=8?ct=docs&mt=8)
 
 
 ## 什么是无相
