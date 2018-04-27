@@ -2,8 +2,71 @@
 
 ## 选择器
 
-无相使用 CSS 选择器来选择元素，然后使用取值器来提取值。
+无相使用 CSS 选择器来选择元素，然后使用取值器来提取值。无相还支持高级的 CSS3 选择器。
 
+### 基本选择器
+
+| 选择器 | 作用 |
+| ---- | ---- |
+| `#ID` | 匹配元素的 id 属性，比如 `#header` 匹配 `<div id=header>`  |
+| `.CLASS` | 匹配元素的 class 属性，比如 `.post` 匹配 `<div class="post odd no-ad">`  |
+| `TAG` | 匹配元素的 tag `nav` 匹配 `<nav><ul></ul></nav>`  |
+
+### 进阶技巧
+
+示例 HTML
+
+```html
+<ul class='articles'>
+  <li>
+    <article>
+      <h2>title</h2>
+
+      <ul class='tags'>
+        <li>Computer</li>
+        <li>Tech</li>
+        <li>Python</li>
+      </ul> 
+    </article>
+  </li>
+</ul>
+
+<ul class='pagination'>
+  <li>
+    <a rel='prev' href=''>上一页</a>
+  </li>
+
+  <li>
+    <a>第2页</a>
+  </li>
+
+  <li> <a>第3页</a> </li>
+  <li> <a>第4页</a> </li>
+
+  <li>
+    <a rel='next' href=''>下一页</a>
+  </li>
+</ul> 
+```
+
+#### `选择器 > 选择器2` 选择亲儿子元素
+
+比如 `#list > li` 只会选择 第一层的 `<li>` 但不会选择 `<ul class=tags>` 下面的 `<li>` 会防止误选中孙子节点，而且还可以加强性能（因为不需要比对孙子元素）建议使用，
+
+
+#### `[属性] 或者 [属性=值]` 选中是否拥有某个属性，或者属性等于多少
+
+比如上面要选中下一页的链接可以用 `a[ref=next]`
+
+
+#### `:first-child :last-child` 选择第一个、最后一个子元素
+
+比如上面要选中下一页的链接可以用 `.pagination > li:last-child a`
+上一页 `.pagination > li:first-child a`
+
+#### `:nth-child()` 选择第n个元素
+
+比如上面你想要选中第2个 tag 可以用 `.tags > li:nth-child(2)`
 
 
 ## 取值器
