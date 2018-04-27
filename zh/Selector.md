@@ -77,7 +77,7 @@
 | 取值器 | 作用 |
 | ---- | ---- |
 | `@text` | 取元素的 `.innerText` 比如 `h1 @text` 遇到 `<h1><span>hello</span> <em>world</em> agian</h1> ` 时结果是 `hello world again` |
-| `@>text` | 取子元素中的 `text` 节点的值，比如上面同一个例子 `h1 @>text` 取到的只有 `again` 因为 `hello world` 是孙子节点。 |
+| `@>text` | 取亲儿子元素中的 `text` 节点的值，比如上面同一个例子 `h1 @>text` 取到的只有 `again` 因为 `hello world` 是孙子节点。 |
 | `@html` | 取当前元素的 `innerHTML` |
 | `@属性值` | 取当前元素的某个属性的值，比如 `@href` 取 'href' 的值 |
 | `@background-image` | 取内联 `style` 中的 `background-image: url()` 的值，因为很多站点的幻灯片组件都是用此方法设置图片，所以我写了这么一个特殊的取值器 |
