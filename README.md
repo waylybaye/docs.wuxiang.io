@@ -22,9 +22,18 @@
 ### 已具备 HTML/CSS 相关经验
 
 1. [从 0 创建 ifanr 网站的客户端 ✅](./zh/GetStarted.md)
-2. [无相编辑器的使用 ⚠️](./zh/Editor.md)
+    * 注册无相账号
+    * 填写基本信息
+    * 适配一个页面
+2. [相的基本介绍 ⚠️](./zh/Editor.md)
+    * 相的基本字段
+    * 相的匹配规则
 3. [选择器和取值器 ✅](./zh/Selector.md)
+    * 选择器：如何选择元素
+    * 取值器：查看各种 `@` 的取值器
 4. [无相的控件文档 ⭕️](./zh/Components.md)
+5. [相的建议][./zh/Common.md]
+    * 相图标的选择 (apple-touch-icon, icon, favicon)
 
 
 ### 不具备 HTML/CSS 知识
